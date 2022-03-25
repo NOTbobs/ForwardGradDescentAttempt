@@ -4,7 +4,7 @@
 
 Optimization/Training a NN to classify a dataset is typically done quickly with backprop and grad descent. However calculating the gradient using backprop is considered biologically implausable. 
 
-The use of directional derivatives can be used to estimate the gradient of a network for a given sample, using 'n' number of forward passes while using 'n' number of one-hot tangent vectors to probe the output of the network w.r.t to all possible weights. For obvious reasons this is much slower than backprop. 
+The use of directional derivatives can be used to estimate the gradient of a network for a given sample, using 'n' number of forward passes while using 'n' number of one-hot tangent vectors to probe the change of the network output w.r.t to all possible weights. For obvious reasons this is much slower than backprop. 
 
 Baydin, Pearlmutter et al (2022) claims that you can get an estimate of a gradient using directional derivatives without running the network 'n' times, but rather using a single optimization step (ie: a batch).
 
