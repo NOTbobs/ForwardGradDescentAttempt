@@ -1,4 +1,5 @@
 # An attempt at Implementing Baydin, Pearlmutter et al (2022)
+https://arxiv.org/abs/2202.08587
 
 ### Problem Statement: 
 
